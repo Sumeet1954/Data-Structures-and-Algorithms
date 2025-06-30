@@ -1,7 +1,7 @@
 // Character Pattern 
     import java.util.*;
 
-    public class CharacterPattern {
+    public class index {
 
         public static void main(String[] args) {
             System.err.println("Enter The Number of Pattern");
@@ -9,7 +9,7 @@
             int n = sc.nextInt();
             char ch = 'A';
             for (int line = 1; line <= n; line++) {
-                for (int number = 1; number <= line; number++) {
+                for (int character = 1; character <= line; character++) {
                     System.out.print(ch);
                     ch++;
                 }
