@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class demo {
+public class InvertedPattern {
 
     public static void main(String[] args) {
         System.err.println("Enter The Number of Pattern");
