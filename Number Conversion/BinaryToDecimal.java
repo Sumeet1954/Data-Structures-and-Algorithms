@@ -10,7 +10,7 @@ public class BinaryToDecimal {
             // System.out.println("Last Digit is :"+lastDigit);
             Dec = Dec + (lastDigit * (int) Math.pow(2, pow));
             pow++;
-            BinNum = BinNum / 10;
+            BinNum /= 10;
             // System.out.println("BinNum is :"+BinNum);
         }
 
